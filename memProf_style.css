@@ -1,0 +1,246 @@
+/****************************
+
+COOL NEW PROPERTY:
+  -filter: alpha(opacity=90);
+
+*****************************
+*****************************/
+
+/* member profile style */
+
+
+/******************************************/
+/*****************************************/
+/******************************************/
+@media(min-width:768px) {
+
+/* top section with dfault-pic */
+    div#topSec-prof{
+
+}
+    div#topSec-prof > section{
+        background-color: transparent;
+        background-image:url("pix/ftrOuterBgBtm-prof.gif");
+        background-size: 100% 100% ;
+        background-position:center; 
+        background-repeat:no-repeat; 
+	
+}
+
+    #dfault_pic{
+        padding:3px 3px; 
+        display:block; 
+        float:left; 
+        background-color:#333; 
+        margin-right:10px; 
+        border:4px double rgba(0,0,0,0.3); 
+        border-radius:10px 10px; 
+        box-shadow:0px 3px 6px #222; 
+}
+/* gallery of recent upl pics */
+    #pic_upl_form div[name="uploaded_pics"]{
+        max-width: 100%;
+        display:inline-block;
+        border:3px solid rgba(167, 161, 161, 0.34);
+        border-radius: 0 12px 12px 0;
+        background-color: rgba(199, 199, 199, 0.2);
+        position: absolute;
+     }
+    #pic_upl_form div[name="uploaded_pics"] > ul{
+         display: inline-block;
+         min-width:600px;
+         max-height:160px;
+         overflow: auto
+       }
+    #pic_upl_form div[name="uploaded_pics"] > ul > li{
+        float:left;
+        width:inherit;
+        padding:0 5px;
+    }
+    #pic_upl_form div[name="uploaded_pics"] > ul li > img{
+        max-width:100px;
+        margin: 8px 4px;
+        border:1px solid rgba(51, 51, 51, 0.38);
+    }    
+
+/* col-lg-8 container of pic upl form */
+    div#picSection{
+        margin:0 10%;
+        padding:5px 10px
+        border: 5px solid rgba(222, 223, 226, 0.13);
+        background-color: rgba(85, 85, 85, 0.14);
+        border-radius: 10px;        
+    }
+    div#picSection div:last-child{
+        border-top:1px solid rgba(163, 163, 163, 0.44);
+         min-width:700px;
+        padding:5px 10px;
+        background-color: rgba(85, 85, 85, 0.45);
+        border-radius: 10px;
+      }
+    div#picSection div:last-child > input{
+        border: 5px solid rgba(222, 223, 226, 0.4);
+        color:#bbb;
+        box-shadow: 0px 3px 5px #444;
+        float:left;
+        clear:left;
+        display:inline;
+        min-width:130px;
+        position: relative;
+            bottom:65px;
+    }
+/* container 4 prof-pic upload form inputs */
+    #pic_upl_form{
+        display: block;
+        margin: 0 auto;
+        color: #999; 
+}
+    
+    
+/** table center **/
+    #tblCenter{
+        margin:0 auto;
+        width:95%;
+        background-color:  ;
+        background-image:url("pix/tblCenter-prof.jpg");
+        background-size: auto 100% ;
+        background-position:center; 
+        background-repeat:repeat-x;
+		background-attachment: fixed;
+        border-radius:15px 15px;
+ 	}
+	#tblCenter table tbody > tr td, #tblCenter  tbody > tr th{
+		color: #999;
+		padding: 15px;
+	}
+	#tblCenter table  {
+		margin: 0 auto;
+		background-image:url("pix/");
+		background-size: 100% auto;
+		background-position:center; 
+		background-repeat:repeat-y; 
+ 	}
+/** end of table center **/
+	
+    
+/* divider below carousel */
+    div#carousel-btm-title-prof{
+        margin: 0 auto;
+        background-image:url("pix/btm-title-bgProf.gif");
+        display: ;
+        background-size: 100% auto;
+        background-position:center; 
+        background-repeat:repeat-y; 
+        background-attachment: ;	  	
+}	
+    div#carousel-btm-title-prof-rev{
+        margin: 0 auto;
+        background-image:url("pix/btm-title-bgProf2.gif");
+        display: ;
+        background-size: 100% auto;
+        background-position:center; 
+        background-repeat:repeat-y; 
+        background-attachment: ;	  	
+}	
+	
+/* carousel-inner */
+	div#pic_gal_carousel{
+        width:95%;
+        background-color: transparent;
+        background-image:url("pix/ftrOuterBgBtm-prof2.gif");
+        background-size: 100% 100% ;
+        background-position:center; 
+        background-repeat:no-repeat; 
+	}
+    
+	div#pic_gal_carousel div>p{
+	height:20px;
+	margin-bottom:0;
+		bottom: -10px;
+	font-size:22px;
+	vertical-align:top;
+	padding-top:0;
+	}	
+
+	div#btmTable-prof{
+		background-color: transparent;
+	}
+/* btm wrapper containing table w/ input fields */	
+	section.footer-prof > div.content{
+		background-color: transparent;
+		background-image:url("pix/ ");
+		background-size:  auto 100%;
+		background-position:center; 
+		background-repeat:repeat-x; 
+		background-attachment: ;	  					
+		margin-bottom: 0;
+		border-radius:0 0 15px 15px;
+	}	
+	
+	#footerMainSec{
+	background-color: transparent;
+	background-image:url("pix/btmBg-prof.gif");
+	background-size: 100% 97% ;
+	background-position:bottom; 
+	background-repeat:no-repeat; 
+	
+	}
+    #mem_socials{
+       /* add transelate animation */
+        background-color: rgba(0,0,0,0.25);
+        }
+    
+    /* uploaded picture */
+    #uplTmpPic{
+        border:3px solid #585858;
+    }
+    
+    /* pic gallery next to uploadd btn */
+    #usr_photos{
+        max-width: 65%;
+        display:inline-block;
+        margin-right:0;
+        margin-top:10px;
+        float:right;
+        max-height:230px;
+        overflow: auto;
+        background-color: rgba(199, 199, 199, 0.26);
+        padding: 4px;
+        border: 1px solid #999;
+    }
+    #usr_photos > img{
+        float:right;
+        max-width:120px;
+        padding:0 3px;
+        border:3px solid rgba(242, 242, 242, 0.51);
+        background-color: rgba(242, 242, 242, 0.51);
+        border-radius: 7px;
+    }
+    /* msg_configm after prof_upd */
+    #resultConfirm{
+        display: block;
+        border:4px solid rgba(255, 207, 207, 0.35);
+        border-radius: 10px;
+        box-shadow: 0px 3px #111;
+        background-color:rgba(173, 173, 173, 0.6);
+        font-weight:bold;
+        font-size:30px;
+    }
+    #prof_item_wrp > span:first-child{
+        position:absolute;
+        bottom: 80%;      
+        right: auto;
+        left: 25%;
+        display:none;
+    }
+    #prof_item_wrp:hover > span:first-child{
+        display: block;
+ 
+    }
+    
+
+  }
+ 
+
+/***************************************************/
+/***************************************************/
